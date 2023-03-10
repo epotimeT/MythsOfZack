@@ -1,0 +1,120 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 23-Feb-2021, 13:14:46
+    Author     : tfeyi
+*/
+
+/*.scroll-bar{
+    -fx-background-color:#333333;
+}*/
+
+.root{
+    -fx-background-color:#333333;
+}
+ .chatbox{
+
+  -fx-background-color:#333333;
+  /*-fx-min-height:400px;
+  -fx-min-width:200px; */
+  -fx-padding: 0px;
+
+  }
+  
+  .vbox{
+    
+    -fx-background-color:#333333;
+}
+ 
+ .text-field{
+     -fx-font-size: 20px;
+     /*-fx-min-width: ;
+     -fx-min-height: 25;
+     -fx-max-width: 50;*/
+     -fx-max-height: 50;
+ }
+
+  .label{
+
+  /*-fx-background-color:purple;*/
+  -fx-text-fill:white;
+  /*-fx-pref-height:20px;
+  /*-fx-pref-width:200px; */
+  -fx-font-size: 20px;
+  -fx-font-size: 20px;
+  -fx-padding: 5px;
+
+  }
+
+ .button{
+
+ -fx-background-color:grey;
+ -fx-text-fill:white;
+ /*-fx-pref-height:25px;
+ -fx-pref-width:50px;*/
+ -fx-font-size: 20px;
+ /*-fx-translate-x:75;
+ -fx-translate-y:410; */
+
+ }
+ 
+ .scroll-pane
+{
+    -fx-background: #333333;
+    -fx-border-color: #333333;
+    /*-fx-border-color: derive(gray, 100%);*/
+    -fx-padding: 0px;
+}
+
+
+.scroll-pane .scroll-bar:vertical
+{
+    -fx-background-color: transparent;
+    -fx-background-radius: 0;
+
+}
+
+
+.scroll-pane .scroll-bar:vertical .track
+{
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+    -fx-background-radius: 0em;
+    -fx-border-radius: 2em;
+}
+
+.scroll-pane .scroll-bar:horizontal .decrement-button
+{
+    -fx-background-color: transparent;
+    -fx-background-radius: 0em;
+   -fx-padding: 0 0 10 0;
+
+}
+
+.scroll-pane .scroll-bar:vertical .decrement-button
+{
+
+    -fx-background-color: transparent;
+    -fx-background-radius: 0em;
+    -fx-padding: 0 10 0 0;
+}
+
+.scroll-pane .scroll-bar .increment-arrow,
+.scroll-pane .scroll-bar .decrement-arrow
+{
+    -fx-padding: -2;
+
+
+}
+
+
+.scroll-pane .scroll-bar:vertical .thumb
+{
+    -fx-background-color: derive(black,90%);
+    -fx-background-insets: 2, 0, 0;
+    -fx-background-radius: 2em;
+}
+

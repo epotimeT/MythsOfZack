@@ -1,0 +1,100 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 12-Feb-2021, 22:54:55
+    Author     : tfeyi
+*/
+
+.root{
+    -fx-background-color: #1F540C;
+    -fx-font-size: 20;
+    -fx-margin: 20;
+    -fx-border-color: black;
+}
+
+.label{
+    -fx-text-fill: white;
+    -fx-font-size: 30px;
+    -fx-font-weight: bold;
+}
+
+.button{
+    
+    -fx-background-color: transparent;
+    -fx-text-fill: white;
+    -fx-background-radius: 30;
+    -fx-margin: 10px;
+    -fx-padding:10px;
+} 
+.button:hover {
+    -fx-background-color: white;
+    -fx-text-fill: #3e8e41;
+}
+
+.button:active {
+  -fx-background-color: green;
+}
+
+
+.toggle-button {
+    -fx-background-color: transparent;
+    -fx-text-fill: white;
+    -fx-background-radius: 30;
+    -fx-margin: 10px;
+    -fx-padding:10px;
+}
+
+.toggle-button:hover {
+    -fx-background-color: white;
+    -fx-text-fill: #3e8e41;
+}
+
+.toggle-button:selected {
+    -fx-background-color: white;
+    -fx-text-fill: #3e8e41;
+}
+
+.toggle-button:selected:hover {
+    -fx-background-color: white;
+    -fx-text-fill: #3e8e41;
+    -fx-opacity: 0.5;
+}
+
+.backbutton{
+    -fx-margin: 10px;
+    -fx-background-color: #585858;
+    -fx-text-fill: white;
+    -fx-background-radius: 6;
+    -fx-font-size: 20;
+    -fx-padding:5px;
+
+} 
+
+.slider {
+    /* default track color: */
+    -slider-filled-track-color: green ;
+    -slider-track-color: -slider-filled-track-color ;
+}
+.slider .track {
+    -fx-padding: 1;
+    -fx-background-color: #2F2F2F;
+    -fx-background-color: linear-gradient(to right, green 0%, green 50%, -fx-base 50%, -fx-base 100%);
+}
+
+
+
+/* Make thumb same color as filled part of track */
+.slider .thumb {
+    -fx-background-color: -slider-filled-track-color ;
+}
+
+.slider .track {
+    -fx-background-color: -slider-track-color ;
+}
+
+
+
+

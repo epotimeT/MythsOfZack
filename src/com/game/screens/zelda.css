@@ -1,0 +1,104 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 12-Feb-2021, 22:54:55
+    Author     : tfeyi
+*/
+
+
+
+.root{
+    -fx-background-color: linear-gradient(green,#3d2817);
+    -fx-font-size: 20;
+    -fx-margin: 20;
+    
+    
+}
+
+
+
+.label{
+    -fx-text-fill: white;
+    -fx-font-size: 30px;
+    -fx-font-weight: bold;
+
+    
+}
+
+.label.error{
+   /* -fx-font-family:Triforce;*/
+    -fx-font-size: 15px;
+    -fx-font-weight: bold;
+    -fx-background-color: red;
+    /*-fx-font-family: 'Times New Roman';*/
+    
+}
+
+.error.label .text{
+    -fx-fill: white;
+    -fx-stroke-width:0.5px;
+}
+
+.text-input.error {
+    -fx-focus-color: #d35244;
+    -fx-faint-focus-color: #ff000022;
+
+    -fx-highlight-fill: -fx-accent;
+    -fx-highlight-text-fill: white;
+    -fx-background-color:
+        -fx-focus-color,
+        -fx-control-inner-background,
+        -fx-faint-focus-color,
+        linear-gradient(from 0px 0px to 0px 5px, derive(-fx-control-inner-background, -9%), -fx-control-inner-background);
+    -fx-background-insets: -0.2, 1, -1.4, 3;
+    -fx-background-radius: 3, 2, 4, 0;
+    -fx-prompt-text-fill: transparent;
+}
+
+.text-input.valid {
+    -fx-focus-color: lime;
+    -fx-faint-focus-color: transparent;
+
+    -fx-highlight-fill: -fx-accent;
+    -fx-highlight-text-fill: white;
+    -fx-background-color:
+        -fx-focus-color,
+        -fx-control-inner-background,
+        -fx-faint-focus-color,
+        linear-gradient(from 0px 0px to 0px 5px, derive(-fx-control-inner-background, -9%), -fx-control-inner-background);
+    -fx-background-insets: -0.2, 1, -1.4, 3;
+    -fx-background-radius: 3, 2, 4, 0;
+    -fx-prompt-text-fill: transparent;
+}
+
+.button{
+    
+    -fx-background-color: transparent;
+    -fx-text-fill: white;
+    -fx-background-radius: 30;
+    -fx-margin: 10px;
+    -fx-padding:10px;
+} 
+.button:hover {
+    -fx-background-color: white;
+    -fx-text-fill: #3e8e41;
+}
+
+.button:active {
+  -fx-background-color: green;
+
+}
+
+.backbutton{
+    -fx-margin: 10px;
+    -fx-background-color: #585858;
+    -fx-text-fill: white;
+    -fx-background-radius: 6;
+    -fx-font-size: 20;
+    -fx-padding:5px;
+
+} 
+

@@ -1,0 +1,80 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 12-Feb-2021, 22:54:55
+    Author     : tfeyi
+*/
+
+
+/*http://www.fontsaddict.com/font/triforce.html*/
+@font-face{
+    font-family: Triforce;
+    src: url("Font/Triforce.ttf");
+}
+
+.root{
+    /*-fx-font-family:Triforce;*/
+    -fx-background-color: linear-gradient(#383838,#181818);
+    -fx-font-size: 35;
+    -fx-padding: 30;
+    
+}
+
+
+
+.label{
+   /* -fx-font-family:Triforce;*/
+    -fx-text-fill: white;
+    -fx-font-size: 50px;
+    -fx-font-weight: bold;
+    
+    /*-fx-font-family: 'Times New Roman';*/
+    
+}
+
+.maintitle{
+    -fx-font-family:Triforce;
+    -fx-text-fill: white;
+    -fx-font-size: 150px;
+    -fx-font-weight: bold;
+
+    /*-fx-font-family: 'Times New Roman';*/
+    
+}
+
+/*.text-field.error {
+  -fx-text-box-border: red ;
+  -fx-focus-color: red ;
+}*/
+
+.button{
+    
+    -fx-background-color: #585858;
+    -fx-text-fill: white;
+    -fx-background-radius: 30;
+    -fx-margin: 10px;
+    
+
+
+} 
+.button:hover {-fx-background-color: #3e8e41}
+
+.button:active {
+  -fx-background-color: #3e8e41;
+  /*-fx-box-shadow: 0 5px #666;
+  -fx-transform: translateY(4px);
+  -fx-cursor: pointer;*/
+}
+
+.backbutton{
+    -fx-margin: 10px;
+    -fx-background-color: #585858;
+    -fx-text-fill: white;
+    -fx-background-radius: 6;
+    -fx-font-size: 20;
+
+} 
+
